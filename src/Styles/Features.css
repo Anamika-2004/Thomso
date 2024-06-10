@@ -1,0 +1,48 @@
+.Features{
+  width:100%;
+  background-color: black;
+  position:relative;
+}
+.feature_heading{
+ font-family: GT America Trial;
+font-size: 50px;
+font-weight: 900;
+line-height: 62.9px;
+text-align: left;
+color:white;
+position: relative;
+width: 874px;
+height:126px;
+top:12px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.top{
+  width:100%;
+  display: flex; 
+  padding:2rem;
+  gap:1rem;
+}
+@media(max-width:900px){
+  .feature_heading{
+    font-size: 1.5rem;
+    width: 574px;
+    height: 76px;
+    line-height:29px;
+    top:5px;
+    left:2px;
+  }
+}
+@media(max-width:300px){
+    .feature_heading{
+    font-size: 0.7rem;
+    width: 200px;
+    height: 36px;
+    line-height:14px;
+    top:5px;
+    left:2px;
+  }
+}

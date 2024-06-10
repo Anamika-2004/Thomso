@@ -1,0 +1,28 @@
+.BusinessCard{
+  display:flex;
+ 
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  width:30%;
+  border:10px dashed #4C27AE;
+border-radius:30px;
+padding:2rem;
+margin-top:1rem;
+}
+#hello{
+  background-color: #4C27AE;
+  width:50%;
+}
+@media(max-width:700px){
+  .BusinessCard h2{
+    font-size: 0.4rem;
+    
+  }
+  .BusinessCard{
+    border:3px dashed #4C27AE;
+  }
+  #hello{
+    width:36%;
+  }
+}

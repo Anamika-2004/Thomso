@@ -1,0 +1,13 @@
+.Business{
+  width:100%;
+  background-color: black;
+}
+.Business .feature_heading{
+  margin-top:2rem;
+}
+.business_container{
+  display:flex;
+  width:90%;
+  gap:0.5rem;
+  margin:0 auto;
+}

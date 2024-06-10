@@ -1,0 +1,36 @@
+.PurpleCard{
+  width:100%;
+  display:flex;
+  background-color:#4C27AE ;
+  justify-content: space-around; 
+  padding:2rem;
+  color:white;
+  font-weight: bold;
+  align-items: center;
+  transform:rotate(3.5deg);
+  border-radius: 20px;
+  margin-bottom:3.5rem;
+}
+.PurpleCard span{
+  background-color: white;
+  color:#4C27AE; 
+  width:5%;
+  border-radius: 700px;
+ height:5%;
+  padding:1rem;
+  
+  font-size: 2rem;
+}
+@media(max-width:800px){
+  .PurpleCard{
+    padding:1rem;
+    margin-bottom:1.3rem;
+  }
+  .PurpleCard h2{
+    font-size:0.9rem;
+  }
+  .PurpleCard span{
+    font-size: 1rem;
+   
+  }
+}

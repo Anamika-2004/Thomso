@@ -1,0 +1,54 @@
+.TestCard{
+  width:50%;
+  background-color: white; 
+  display: flex; 
+  flex-direction: column; 
+  gap:1rem;
+  align-items: start;
+  padding:2rem 1.5rem;
+  border-radius: 20px;
+}
+.TestCard .pp{
+  margin-top:1rem;
+  
+}
+.intro{
+  display:flex;
+  width:70%;
+  align-items: center;
+  color:#a69898;
+  gap:0.3rem;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  
+}
+.intro img{
+  width:30%;
+  height:70%;
+}
+.bold{ font-weight:bold;}
+@media(max-width:600px){
+  .TestCard .pp{
+    font-size:0.7rem;
+  }
+  .TestCard h2{
+    font-size: 1.2rem;
+  }
+  .TestCard{
+    gap:0.5rem; 
+    padding:0.3rem;
+  }
+  .intro{
+    width:80%;
+  }
+  .about .bold{
+    font-size: 0.6rem;
+  }
+  .about p{
+    font-size: 0.5rem;
+  }
+}

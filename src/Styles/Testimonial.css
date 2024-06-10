@@ -1,0 +1,39 @@
+.Testiminial{
+  width:100%;
+  background-color: black;
+}
+.test_container{
+  position: relative;
+  width:90%;
+  display: flex;
+  gap:1rem; 
+  margin:0 auto;
+  background-color:#ED7E02 ;
+  padding:1rem;
+  border-radius: 20px;
+  margin-top:1rem;
+  padding-bottom:4rem;
+  
+}
+.grey_btn{
+  background-color: black;
+  display: flex;
+  padding:0.2rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size:2.5rem;
+  color:white;
+  border-radius:22px;
+  position:absolute;
+  bottom:0.4rem;
+  right:2rem;
+  width:content-fit;
+  height:3rem;
+}
+@media(max-width:600px){
+  .grey_btn{
+    font-size: 1rem;
+    height:1.6rem;
+    padding:0.5rem;
+  }
+}
